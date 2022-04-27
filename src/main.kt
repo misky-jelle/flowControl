@@ -5,7 +5,6 @@ fun main(){
     printDrinks(12)
     printDrinks(23)
     numbers()
-
 }
 fun oddNums(num:Int){
     for(i in 0..100){
@@ -27,7 +26,7 @@ fun printDrinks(age:Int){
         println("Take this glass of Milk")
     }
     else if(age>6 && age <15){
-        println("Take this fanta orange drink")
+        println("Take this Fanta orange drink")
     }
     else{
         println("Take this coke bottle")
